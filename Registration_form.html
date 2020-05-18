@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Registration form</title>
+	<style>
+	body {
+		background-color:skyblue;
+        font-size: 15px;
+	}
+	</style>
+<body>
+<center>
+		<h2 style="border-style: dashed;">
+          <label>Registration Form</label></h2>
+	</center>
+	<form>
+		<h3>
+			<fieldset>
+				<legend style="border-color: black"><label>Personal Information</label></legend>
+			First Name: <input type="text" name="firstname"> <br>
+			Last Name : <input type="text" name="lastname"> <br>
+			Gender : <input type="radio" name="gender" value = "male">Male
+			<input type="radio" name="gender" value="female">Female <br>
+			Country:
+			<select name = "country" style="width: 160px">
+				<option value="none"></option>
+                <option value="india">India</option>
+				<option value="pakistan">Pakistan</option>
+				<option value="africa">Africa</option>
+				<option value="unitedstates">United States</option>
+				<option value="canada">Canada</option>
+			</select>
+			</fieldset>
+			<fieldset>
+				<legend><label>Education</label></legend>
+				X:<br>
+				School     : <input type="text" name="College"><br>
+				Passed year:
+				<select>
+                    <option></option>
+					<option>2013</option>
+					<option>2014</option>
+					<option>2015</option>
+				</select><br>
+				Percentage : <input type="text" name="percentage"><br>	
+			<hr>
+			XII:<br>
+				College    : <input type="text" name="College"><br>
+				Passed year:
+				<select>
+                    <option></option>
+					<option>2015</option>
+					<option>2016</option>
+					<option>2017</option>
+				</select><br>
+				Percentage : <input type="text" name="percentage"><br>
+			<hr>
+			Graduation:<br>
+				College    : <input type="text" name="College"><br>
+				Passed year:
+				<select>
+                    <option></option>
+					<option>2019</option>
+					<option>2020</option>
+					<option>2021</option>
+				</select><br>
+				Percentage : <input type="text" name="percentage"><br>
+		</fieldset>
+			<fieldset>
+			<legend><label>Hobbies</label></legend>
+			<input type="checkbox" id="cricket" name = "cricket" value = "cricket">
+			<label for="cricket">Cricket</label><br>
+			<input type="checkbox" id="football" name = "football" value = "football">
+			<label for="footballt">Football</label><br>
+			<input type="checkbox" id="Chess" name = "chess" value = "chess">
+			<label for="chess">Chess</label><br>
+		</fieldset>
+		<fieldset>
+			<legend>Contact Information</legend>
+			Address:<textarea rows="2" cols="20"></textarea><br>
+			Mobile: <input type="text" name="mobile" id="mobile"><br>
+			Email:	<input type="text" name="email" id="email"><br/>
+		</fieldset>
+		</h3>
+	</form>
+	<center>
+	<input type="submit" name="submit">
+	</center>
+</body>
+</html>
